@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>YeiParty</title>
 </head>
 <body>
-    <h1>YeiParty</h1>
     
+    <div id="contenedor_carga">
+        <div id="carga"></div>
+
+    </div>
+    
+    <script>
+        window.onload = function(){
+            var  contenedor = document.getElementById('contenedor_carga');
+            contenedor.style.visibility = 'hidden';
+            contenedor.style.opacity= '0';
+        }
+    </script>
 </body>
 </html>

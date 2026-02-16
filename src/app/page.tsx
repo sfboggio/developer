@@ -547,7 +547,16 @@ export default function Home() {
 
       <footer className="mt-auto pt-8 pb-4 text-center">
         <p className="text-sm font-medium tracking-wide text-zinc-400 dark:text-zinc-500">
-          POWERED BY SANDALF WITH <span className="text-rose-500">❤️</span>
+          POWERED BY{" "}
+          <a
+            href="https://github.com/sfboggio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:text-zinc-600 dark:hover:text-zinc-300"
+          >
+            🧙‍♂️ SANDALF 🧙‍♂️
+          </a>{" "}
+          WITH <span className="text-rose-500">❤️</span>
         </p>
       </footer>
     </main>
